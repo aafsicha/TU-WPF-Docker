@@ -10,5 +10,10 @@ namespace TestApp.Tests
         {
             Assert.That(TestApp.MainWindow.TestedMethod(4), Is.EqualTo(8));
         }
+        [Test]
+        public void Test2()
+        {
+            Assert.That(TestApp.MainWindow.TestedMethod(-1), Is.EqualTo(-2));
+        }
     }
 }
