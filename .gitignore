@@ -1,0 +1,13 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/TestApp/packages/*
+/TestApp/.vs/*
+/TestApp/TestApp/bin
+/TestApp/TestApp/obj
+/TestApp/TestApp.Tests/bin
+/TestApp/TestApp.Tests/obj
+/TestApp/_NCrunch_TestApp
+/TestApp/TestApp.v3.ncrunchsolution.user
+/TestApp/TestApp.v3.ncrunchsolution
