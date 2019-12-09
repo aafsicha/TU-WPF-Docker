@@ -1,5 +1,5 @@
 # TU-WPF-Docker
-WPF app with NUnit tests running in docker
+Building and running unit tests in a container for a WPF app.
 
 ## Building with Docker
 * Install Docker on your windows machine
