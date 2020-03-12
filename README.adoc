@@ -6,6 +6,11 @@ Building and running unit tests in a container for a WPF app.
 * Clone repo
 * Run 
 ----
-$ docker build .
+$ docker build -t wpf/test-image .
 ----
 NB : First build will take some time as the dotnet/framework/sdk image can be quite large...
+
+## Running the container
+----
+$ docker run -t wpf/test-image    
+----
