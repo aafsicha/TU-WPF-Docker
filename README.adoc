@@ -5,7 +5,7 @@ Building and running unit tests in a container for a WPF app.
 * Install Docker on your windows machine (w. Windows Containers)
 * Clone repo
 * Run 
-==== 
-docker build .
-====
+----
+$ docker build .
+----
 NB : First build will take some time as the dotnet/framework/sdk image can be quite large...
